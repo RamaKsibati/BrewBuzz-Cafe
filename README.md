@@ -4,7 +4,7 @@
 
 BrewBuzz Café is a student-developed cross-platform mobile app for discovering local coffee shops, exploring menus, saving favorites, and writing reviews. Business owners can register and manage their shop profiles. The project integrates a React Native frontend with a REST API and PostgreSQL data storage.
 
-> **Upload status:** Portfolio documentation is published, but the cleaned `frontend/` and `backend/` source folders have **not yet been uploaded**. Educational capstone source, not a live coffee-ordering service. The cleaned project has not been independently validated against live AWS, Clover, or database services.
+> **Portfolio archive:** The cleaned `frontend/` and `backend/` code folders are uploaded. Educational capstone source, not a live coffee-ordering service; current cloud services and end-to-end workflows have not been independently revalidated.
 
 ## Highlights
 
@@ -15,6 +15,26 @@ BrewBuzz Café is a student-developed cross-platform mobile app for discovering 
 - Favorites, ratings and reviews
 - AWS S3 image integration and backend services
 - Cart/order-related screens and endpoints (not verified as live checkout)
+
+## App showcase
+
+The original Expo screen recording supplied by the team demonstrates the coffee discovery homepage, shop browsing, favorites, business registration, menu browsing, and profile screens. Seven still frames were extracted for this portfolio; the PNG files must be uploaded to `docs/screenshots/` before the preview images below appear.
+
+| Home | Coffee businesses | Favorites |
+|---|---|---|
+| ![BrewBuzz app home](docs/screenshots/home.png) | ![Business directory](docs/screenshots/businesses.png) | ![Favorite cafés](docs/screenshots/favorites.png) |
+
+| Business registration | Shop menu | Menu items |
+|---|---|---|
+| ![Register a business](docs/screenshots/business-registration.png) | ![Coffee shop menu](docs/screenshots/menu.png) | ![Coffee menu products](docs/screenshots/menu-items.png) |
+
+![User profile view](docs/screenshots/profile.png)
+
+## Design & documentation
+
+Read the [software design case study](docs/design-case-study.md) for a concise overview of the four-person team's requirements, three-tier architecture, database entity-relationship model, UI mockups, and testing strategy. It is grounded in the original **CIS4952 Software Design Document (39 pages)**.
+
+The original design document remains an academic artifact: proposed ordering, payment, scale, and testing goals are not automatically claims of completed production features. The original DOCX can be uploaded to `docs/` after checking any embedded personal information.
 
 ## My contribution
 
@@ -63,6 +83,6 @@ Never commit real secrets or private credentials. Values prefixed `EXPO_PUBLIC_`
 
 ## Next portfolio improvements
 
-Add screenshots of the actual mobile app, a short demonstration video, and a sanitized senior design report. Features shown in the code have not all been independently regression-tested against currently running services.
+Upload the seven extracted PNG screenshots into `docs/screenshots/`, add the sanitized original design document and Expo demonstration video if appropriate, and independently regression-test features before claiming a live release.
 
 **Project owner:** Rama Ksibati · B.S. Computer Information Science
