@@ -18,7 +18,7 @@ BrewBuzz Café is a student-developed cross-platform mobile app for discovering 
 
 ## App showcase
 
-The original Expo screen recording supplied by the team demonstrates the coffee discovery homepage, shop browsing, favorites, business registration, menu browsing, and profile screens. Seven still frames were extracted for this portfolio; the PNG files must be uploaded to `docs/screenshots/` before the preview images below appear.
+The original Expo screen recording supplied by the team demonstrates the coffee discovery homepage, shop browsing, favorites, business registration, menu browsing, and profile screens. 
 
 | Home | Coffee businesses | Favorites |
 |---|---|---|
@@ -81,8 +81,6 @@ The original code requires privately configured backend dependencies and authori
 
 Never commit real secrets or private credentials. Values prefixed `EXPO_PUBLIC_` must not contain secrets.
 
-## Next portfolio improvements
 
-Upload the seven extracted PNG screenshots into `docs/screenshots/`, add the sanitized original design document and Expo demonstration video if appropriate, and independently regression-test features before claiming a live release.
 
 **Project owner:** Rama Ksibati · B.S. Computer Information Science
