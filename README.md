@@ -4,7 +4,7 @@
 
 BrewBuzz Café is a student-developed cross-platform mobile app for discovering local coffee shops, exploring menus, saving favorites, and writing reviews. Business owners can register and manage their shop profiles. The project integrates a React Native frontend with a REST API and PostgreSQL data storage.
 
-> **Portfolio archive:** Educational capstone source, not a live coffee-ordering service. The cleaned project has not been independently validated against live AWS, Clover, or database services.
+> **Upload status:** Portfolio documentation is published, but the cleaned `frontend/` and `backend/` source folders have **not yet been uploaded**. Educational capstone source, not a live coffee-ordering service. The cleaned project has not been independently validated against live AWS, Clover, or database services.
 
 ## Highlights
 
